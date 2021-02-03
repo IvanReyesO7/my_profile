@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Merriweather:wght@300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+h1, h3 {
+  font-family: 'Merriweather', serif;
+  color: black;
+  }
+  
+a {
+    text-decoration: none;
+  }
+.card-white {
+  width: 680px;
+  margin: 48px auto;
+  padding: 32px;
+  background-color: #AFAFAC;
+  box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.img-circle {
+  background: url("images/myface.jpg") no-repeat;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.img-circle:hover {
+  background: url("images/crying.jpg") no-repeat;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.red-btn {
+  color: rgb(250,250,250);
+  transition: 0.2s;
+  padding: 19px 32px;
+  margin: 0px;
+  display: inline-block;
+  border-radius: 38px;
+  border-style: solid;
+}
+
+.red-btn:hover {
+  background-color: #d6cac6f5;
+  transition: 1.5s;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  font-size: 64px;
+}
+
+.list-inline a {
+  color: rgb(250,250,250);
+  padding: 36px; 
+}
+
+.list-inline a:hover {
+  color: #d6cac6f5;
+  transition: 1.5s;
+}
+
+.front-card-list {
+  list-style: none;
+  padding: 0;
+}
+
+.front-card-list li {
+  display: inline-block;
+}
+
+.description {
+  margin: 46px;
+  width: 391px;
+  background-color: #CDCDCB;
+  padding: 1px;
+  border-radius: 8px;
+}
+
+.not-sure {
+  display: flex;
+}
+
+.list-pics {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.cool-pic1 {
+  background: url("images/cool01.jpg") no-repeat;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.cool-pic1:hover {
+  background: url("images/cool05.jpg") no-repeat;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.cool-pic2 {
+  background: url("images/cool02.jpg") no-repeat;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.cool-pic2:hover {
+  background: url("images/cool06.jpg") no-repeat;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.cool-pic3 {
+  background: url("images/cool03.jpg") no-repeat;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.cool-pic3:hover {
+  background: url("images/cool07.jpg") no-repeat;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.cool-pic4 {
+  background: url("images/cool04.jpg") no-repeat;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.cool-pic4:hover {
+  background: url("images/cool08.jpg") no-repeat;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
